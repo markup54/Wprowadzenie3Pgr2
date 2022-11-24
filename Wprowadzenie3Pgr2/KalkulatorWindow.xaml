@@ -34,7 +34,7 @@
         <Button Grid.Row="2" 
                 Grid.ColumnSpan="2" 
                 Click="Oblicz_Click"
-                Margin="20">
+                Margin="15">
             Oblicz</Button>
     </Grid>
 </Window>
