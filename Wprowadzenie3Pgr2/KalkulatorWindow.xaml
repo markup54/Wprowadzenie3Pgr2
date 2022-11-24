@@ -1,0 +1,40 @@
+﻿<Window x:Class="Wprowadzenie3Pgr2.KalkulatorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wprowadzenie3Pgr2"
+        mc:Ignorable="d"
+        Title="KalkulatorWindow" Height="200" Width="300">
+    <Grid Background="Beige">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="liczba1"
+                 Grid.Column="1"
+                 Margin="10"
+                 Foreground="RosyBrown">
+            </TextBox>
+        <TextBox x:Name="liczba2"
+                 Grid.Column="1"
+                 Grid.Row="1"
+                 Margin="10">
+        </TextBox>
+        <TextBlock Margin="10">Podaj pierwszą liczbę
+        </TextBlock>
+        <TextBlock Grid.Row="1" Margin="10">
+            Podaj drugą liczbę
+        </TextBlock>
+        <Button Grid.Row="2" 
+                Grid.ColumnSpan="2" 
+                Click="Oblicz_Click"
+                Margin="20">
+            Oblicz</Button>
+    </Grid>
+</Window>
