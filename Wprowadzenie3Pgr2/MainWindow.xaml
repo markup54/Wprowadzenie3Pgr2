@@ -6,7 +6,24 @@
         xmlns:local="clr-namespace:Wprowadzenie3Pgr2"
         mc:Ignorable="d"
         Title="Panele" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <UniformGrid Columns="7" Rows="4">
+        <Button Margin="10">1</Button>
+        <Button Margin="10">2</Button>
+        <Button Margin="10">3</Button>
+        <Button Margin="10">4</Button>
+        <Button Margin="10">5</Button>
+        <Button>6</Button>
+        <Button>7</Button>
+        <Button>8</Button>
+        <Button>9</Button>
+        <Button>1</Button>
+        <Button>2</Button>
+        <Button>3</Button>
+        <Button>4</Button>
+        <Button>5</Button>
+        <Button>6</Button>
+        <Button>7</Button>
+        <Button>8</Button>
+        <Button>9</Button>
+    </UniformGrid>
 </Window>
