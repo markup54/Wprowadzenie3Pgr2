@@ -6,7 +6,34 @@
         xmlns:local="clr-namespace:Wprowadzenie3Pgr2"
         mc:Ignorable="d"
         Title="WindowZadanie" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <DockPanel>
+        <Button Padding="10" DockPanel.Dock="Bottom" Background="Aqua" Foreground="BlueViolet">1</Button>
+        <Button DockPanel.Dock="Top" Padding="10" 
+               Background="Aqua" Foreground="BlueViolet">2</Button>
+        <Button Padding="10"  Background="Aqua" Foreground="BlueViolet">3</Button>
+        <UniformGrid Rows="1" Margin="20">
+            <StackPanel VerticalAlignment="Center" Margin="10">
+                <Button Padding="10" Margin="10">4</Button>
+                <Button Padding="10" Margin="10">5</Button>
+                <Button Padding="10" Margin="10">6</Button>
+            </StackPanel>
+            <UniformGrid Columns="2" Margin="10">
+                <Button Padding="10" Margin="10">4</Button>
+                <Button Padding="10" Margin="10">5</Button>
+                <Button Padding="10" Margin="10">6</Button>
+                <Button Padding="10" Margin="10">4</Button>
+                <Button Padding="10" Margin="10">5</Button>
+                <Button Padding="10" Margin="10">6</Button>
+                <Button Padding="10" Margin="10">5</Button>
+                <Button Padding="10" Margin="10">6</Button>
+            </UniformGrid>
+            <DockPanel Margin="10">
+                <Button Padding="10" Margin="2" DockPanel.Dock="top">5</Button>
+                <Button Padding="10" Margin="2" DockPanel.Dock="Right">5</Button>
+                <Button Padding="10" Margin="2" DockPanel.Dock="Top">6</Button>
+                <Button Padding="10" Margin="2" DockPanel.Dock="Right">6</Button>
+                <Button Padding="10" Margin="2">6</Button>
+            </DockPanel>
+        </UniformGrid>
+    </DockPanel>
 </Window>
